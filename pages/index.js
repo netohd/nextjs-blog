@@ -9,6 +9,7 @@ export default function HomePage() {
   const [likes, setLikes] = useState(0);
 
   function handleClick() {
+    console.log(likes)
     setLikes(likes + 1);
   }
 
