@@ -31,7 +31,7 @@ export default function Home({
         </p>
         <p>
           - Visite meu <a href="https://github.com/netohd" target="_blank">perfil no Github </a>
-          e veja alguns trabalhos.
+          e veja alguns trabalhos. 
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
