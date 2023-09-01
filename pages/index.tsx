@@ -28,7 +28,7 @@ export default function Home({
         </p>
         <p>
           - Access my <a href="https://github.com/netohd" target="_blank">Github profile </a>
-          and see some works.
+          and see some works
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
