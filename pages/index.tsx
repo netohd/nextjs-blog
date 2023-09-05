@@ -22,16 +22,13 @@ export default function Home({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Desenvolvedor full stack com mais de três anos de experiência,
-          entusiasta das tecnologias voltadas para web. Possui facilidade
-          na resolução de problemas, comunicação e no aprendizado de novas
-          tecnologias. Principais competências técnicas:
-          JavaScript/Typescript, Nest, React, Spring Boot,
-          SQL/Mongo, GraphQL/REST, AWS.
+          Full stack developer with more than three years of experience, enthusiast of web technologies.
+          It is easy to solve problems, communicate and learn new technologies. Key technical skills: 
+          JavaScript/Typescript, Nest, React, Spring Boot, SQL/Mongo, GraphQL/REST and AWS.
         </p>
         <p>
-          - Visite meu <a href="https://github.com/netohd" target="_blank">perfil no Github </a>
-          e veja alguns trabalhos.
+          - Access my <a href="https://github.com/netohd" target="_blank">Github profile </a>
+          and see some works.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
