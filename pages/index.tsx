@@ -22,9 +22,10 @@ export default function Home({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Full stack developer with more than three years of experience, enthusiast of web technologies.
-          It is easy to solve problems, communicate and learn new technologies. Key technical skills: 
-          JavaScript/Typescript, Nest, React, Spring Boot, SQL/Mongo, GraphQL/REST and AWS.
+        Full stack developer focused on web technologies. 
+        It is easy to solve problems, communicate and learn new tools. 
+        Main technical skills: JavaScript/Typescript, Nest, React, 
+        Spring Boot, SQL/Mongo, GraphQL/REST, AWS.
         </p>
         <p>
           - Access my <a href="https://github.com/netohd" target="_blank">Github profile </a>
