@@ -6,21 +6,25 @@ date: '2023-09-20'
 NestJS, when combined with Fastify secure-session, provides an effective and secure solution for managing sessions in web applications. Setting it up is straightforward:
 
 ```js
-import { FastifyAdapter, NestFastifyApplication } from '@nestjs/platform-fastify';
-import fastifySecureSession from 'fastify-secure-session';
+import secureSession from '@fastify/secure-session';
 
-async function bootstrap() {
-  const app = await NestFactory.create<NestFastifyApplication>(
-    AppModule,
-    new FastifyAdapter(),
-  );
+// somewhere in your initialization file
+const app = await NestFactory.create<NestFastifyApplication>(
+  AppModule,
+  new FastifyAdapter(),
+);
+await app.register(secureSession, {
+  secret: 'averylogphrasebiggerthanthirtytwochars',
+  salt: 'mq9hDxBVDbspDR6n',
+});
+```
+Now, you can use the @Session() decorator to extract a session object from the request, as follows:
 
-  app.register(fastifySecureSession, {
-    key: Buffer.from('your-secret-key'),
-    cookie: { secure: true },
-  });
-
-  await app.listen(3000);
+```js
+@Get()
+findAll(@Session() session: secureSession.Session) {
+  const visits = session.get('visits');
+  session.set('visits', visits ? visits + 1 : 1);
 }
 ```
 
