@@ -1,5 +1,5 @@
 ---
-title: 'Using Fastify secure-session with NestJs'
+title: 'Using Fastify secure-session with NestJS'
 date: '2023-09-20'
 ---
 
