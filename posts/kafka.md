@@ -1,5 +1,5 @@
 ---
-title: 'Harnessing the Power of Kafka: Streamlining Data Processing with Node.js'
+title: 'Harnessing the Power of Kafka: Streamlining Data Processing with NodeJS'
 date: '2023-09-05'
 ---
 
