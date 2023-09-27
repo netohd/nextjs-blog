@@ -78,7 +78,7 @@ const consumeMessages = async () => {
 consumeMessages();
 ```
 
-Here, we create a Kafka consumer in Node.js to subscribe to a topic and process incoming messages.
+Here, we create a Kafka consumer in NodeJS to subscribe to a topic and process incoming messages.
 
 #### Wrapping Up
 Apache Kafka is a powerful tool that can supercharge your data processing pipelines. Its scalability, durability, and real-time capabilities make it an excellent choice for a wide range of use cases. With the simplicity of integration provided by libraries like kafkajs, Node.js developers can easily leverage Kafka's benefits.
