@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import React, { ReactNode } from "react";
+
 
 const name = 'Antonio Neto'
 export const siteTitle = 'Blog @netohd'
@@ -11,12 +13,12 @@ export default function Layout({
   children,
   home
 }: {
-  children: React.ReactNode
+  children?: React.ReactNode
   home?: boolean
 }) {
   return (
     <div className={styles.container}>
-      <Head>
+      <Head children={undefined}>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
