@@ -18,7 +18,7 @@ export default function Layout({
 }) {
   return (
     <div className={styles.container}>
-      <Head children={undefined}>
+      <Head children={children}>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
