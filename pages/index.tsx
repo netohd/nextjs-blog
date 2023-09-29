@@ -28,7 +28,7 @@ export default function Home({
         Spring Boot, SQL/Mongo, GraphQL/REST, AWS.
         </p>
         <p>
-          - Access my <a href="https://github.com/netohd" target="_blank">Github profile </a>
+          - Access my <a href="https://github.com/netohd" target="_blank">Github </a>
           and see some works.
         </p>
       </section>
